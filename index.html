@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RR RecruitRight — Track. Analyze. Land.</title>
+  <meta name="description" content="RR RecruitRight: a beautifully simple, AI-powered tracker for student internship applications. Local-first, zero dependencies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2306B6D4'/%3E%3Cstop offset='1' stop-color='%231D4ED8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Ctext x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter, sans-serif' font-size='13' font-weight='800' fill='white'%3ERR%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ============ TOP NAV ============ -->
+  <header class="topnav" id="topnav">
+    <div class="topnav-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="28" height="28">
+            <defs>
+              <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#22D3EE"/>
+                <stop offset="1" stop-color="#1D4ED8"/>
+              </linearGradient>
+            </defs>
+            <rect width="32" height="32" rx="8" fill="url(#brandGrad)"/>
+            <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="white">RR</text>
+          </svg>
+        </span>
+        <span class="brand-name">RecruitRight</span>
+      </a>
+      <nav class="topnav-links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#app">Tracker</a>
+      </nav>
+      <a href="#app" class="btn-pill">Open tracker →</a>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="ocean-bg" aria-hidden="true">
+      <div class="wave wave-1"></div>
+      <div class="wave wave-2"></div>
+      <div class="wave wave-3"></div>
+      <div class="caustics"></div>
+      <div class="bubbles">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <div class="hero-inner">
+      <span class="eyebrow">RR RecruitRight · v1.0</span>
+      <h1 class="hero-title">
+        Dive deep into <em>your</em> job&nbsp;search.
+      </h1>
+      <p class="hero-sub">
+        Log every internship application. Watch your funnel. Surface the
+        patterns hidden in your data — all in one beautifully simple,
+        local-first tracker.
+      </p>
+      <div class="hero-cta">
+        <a href="#app" class="btn-primary">Start tracking</a>
+        <a href="#features" class="btn-ghost">See how it works</a>
+      </div>
+
+      <div class="hero-stats">
+        <div><strong>0</strong><span>API keys required</span></div>
+        <div><strong>100%</strong><span>local‑first</span></div>
+        <div><strong>∞</strong><span>applications tracked</span></div>
+      </div>
+    </div>
+
+    <a href="#features" class="scroll-hint" aria-label="Scroll for more">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section section-light" id="features">
+    <div class="section-inner">
+      <span class="kicker">What's inside</span>
+      <h2 class="section-title">Built for the season of <em>"did they get back to me?"</em></h2>
+
+      <div class="feature-grid">
+        <article class="feature">
+          <div class="feature-icon" data-icon="log"></div>
+          <h3>Log in seconds</h3>
+          <p>Six fields, one keystroke each. Your applications saved instantly to your browser. No accounts, no cloud.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon" data-icon="metrics"></div>
+          <h3>Live metrics</h3>
+          <p>Total apps, response rate, interviews, offers — a clean strip that pulses every time your numbers move.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon" data-icon="funnel"></div>
+          <h3>Visual funnel</h3>
+          <p>Watch the drop-off from Applied → Screening → Interview → Offer. Pure CSS, zero libraries.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon" data-icon="ai"></div>
+          <h3>Insight engine</h3>
+          <p>A rule‑based engine reads your data and types out what's working, what isn't, and what to do next.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section section-deep" id="how">
+    <div class="section-inner">
+      <span class="kicker">Three tabs. One story.</span>
+      <h2 class="section-title how-title">From entry &nbsp;<span class="arrow">→</span>&nbsp; pattern &nbsp;<span class="arrow">→</span>&nbsp; action.</h2>
+
+      <div class="how-grid">
+        <article class="how-card">
+          <span class="how-num">01</span>
+          <h3>Log</h3>
+          <p>Drop in company, role, field, date and status. Cards animate in, no friction, no confirmation popups.</p>
+        </article>
+        <article class="how-card">
+          <span class="how-num">02</span>
+          <h3>Funnel</h3>
+          <p>See exactly where your pipeline is leaking. Conversion percentages, stage by stage, in real time.</p>
+        </article>
+        <article class="how-card">
+          <span class="how-num">03</span>
+          <h3>AI</h3>
+          <p>Hit Analyze. Insights stream out, character by character, with three concrete actions for the week.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APP / TRACKER ============ -->
+  <section class="section section-app" id="app">
+    <div class="section-inner">
+      <span class="kicker">The tracker</span>
+      <h2 class="section-title">Your dashboard, surfacing.</h2>
+
+      <div class="app-shell">
+        <!-- App tab nav -->
+        <div class="app-tabs" role="tablist" aria-label="Sections">
+          <button class="tab active" role="tab" data-tab="log" aria-selected="true">Log</button>
+          <button class="tab" role="tab" data-tab="funnel" aria-selected="false">Funnel</button>
+          <button class="tab" role="tab" data-tab="insights" aria-selected="false">AI</button>
+        </div>
+
+        <!-- Metric strip -->
+        <div class="metric-strip" aria-label="Key metrics">
+          <article class="metric" data-metric="total">
+            <div class="metric-label">Total Apps</div>
+            <div class="metric-value" data-target="0">0</div>
+            <div class="metric-sub">all time</div>
+          </article>
+          <article class="metric" data-metric="response">
+            <div class="metric-label">Response Rate</div>
+            <div class="metric-value" data-target="0">0<span class="unit">%</span></div>
+            <div class="metric-sub">screen + interview + offer</div>
+          </article>
+          <article class="metric" data-metric="interviews">
+            <div class="metric-label">Interviews</div>
+            <div class="metric-value" data-target="0">0</div>
+            <div class="metric-sub">active stage</div>
+          </article>
+          <article class="metric" data-metric="offers">
+            <div class="metric-label">Offers</div>
+            <div class="metric-value" data-target="0">0</div>
+            <div class="metric-sub">received</div>
+          </article>
+        </div>
+
+        <!-- LOG TAB -->
+        <section id="tab-log" class="panel active" role="tabpanel">
+          <div class="panel-grid">
+            <div class="card form-card">
+              <header class="card-head">
+                <h3 class="card-title">Log application</h3>
+                <span class="card-meta">// new entry</span>
+              </header>
+              <form id="add-form" class="add-form" novalidate>
+                <div class="field">
+                  <label for="company">Company</label>
+                  <input id="company" name="company" type="text" autocomplete="off" placeholder="e.g. Stripe" required />
+                </div>
+                <div class="field">
+                  <label for="role">Role</label>
+                  <input id="role" name="role" type="text" autocomplete="off" placeholder="e.g. PM Intern" required />
+                </div>
+                <div class="field">
+                  <label for="field">Field</label>
+                  <select id="field" name="field">
+                    <option value="Tech / Engineering">Tech / Engineering</option>
+                    <option value="Product / Design">Product / Design</option>
+                    <option value="Finance / Consulting">Finance / Consulting</option>
+                    <option value="Marketing / Sales">Marketing / Sales</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="dateApplied">Date applied</label>
+                  <input id="dateApplied" name="dateApplied" type="date" required />
+                </div>
+                <div class="field">
+                  <label for="daysAfter">Days after posting</label>
+                  <input id="daysAfter" name="daysAfter" type="number" min="0" max="365" value="0" />
+                </div>
+                <div class="field">
+                  <label for="status">Status</label>
+                  <select id="status" name="status">
+                    <option value="Applied">Applied</option>
+                    <option value="Screening">Screening</option>
+                    <option value="Interview">Interview</option>
+                    <option value="Offer">Offer</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="field field-submit">
+                  <button type="submit" class="btn-primary">+ Add application</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="card list-card">
+              <header class="card-head">
+                <h3 class="card-title">Applications</h3>
+                <span class="card-meta" id="list-count">// 0 logged</span>
+              </header>
+              <div id="app-list" class="app-list" aria-live="polite"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- FUNNEL TAB -->
+        <section id="tab-funnel" class="panel" role="tabpanel">
+          <div class="card">
+            <header class="card-head">
+              <h3 class="card-title">Conversion funnel</h3>
+              <span class="card-meta">// stage by stage</span>
+            </header>
+            <div id="funnel" class="funnel"></div>
+            <footer class="funnel-foot">
+              <div class="legend">
+                <span class="legend-dot"></span>
+                <span>Bar width is proportional to count. Conversion % is share of all applications reaching that stage.</span>
+              </div>
+            </footer>
+          </div>
+        </section>
+
+        <!-- INSIGHTS TAB -->
+        <section id="tab-insights" class="panel" role="tabpanel">
+          <div class="card">
+            <header class="card-head">
+              <h3 class="card-title">AI insight engine</h3>
+              <span class="card-meta">// rule-based · no API · runs locally</span>
+            </header>
+            <div class="insights-controls">
+              <button id="analyze-btn" class="btn-primary">Analyze my search</button>
+              <span class="muted">Pattern detection across response rate, timing, and funnel drop-off.</span>
+            </div>
+            <div class="terminal" id="terminal" aria-live="polite">
+              <div class="terminal-head">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-amber"></span>
+                <span class="dot dot-green"></span>
+                <span class="terminal-title">recruitright::insights</span>
+              </div>
+              <pre id="terminal-body" class="terminal-body"><span class="muted">$ awaiting analysis...</span></pre>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="foot">
+    <div class="foot-inner">
+      <div class="foot-brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="22" height="22">
+            <rect width="32" height="32" rx="8" fill="url(#brandGrad)"/>
+            <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="800" fill="white">RR</text>
+          </svg>
+        </span>
+        <span>RecruitRight</span>
+      </div>
+      <div class="foot-meta">
+        <span>Local‑first</span>
+        <span class="sep">·</span>
+        <span>Zero dependencies</span>
+        <span class="sep">·</span>
+        <span>Your data stays in your browser</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    // Top nav scroll state
+    (function () {
+      const nav = document.getElementById('topnav');
+      const onScroll = () => {
+        if (window.scrollY > 24) nav.classList.add('scrolled');
+        else nav.classList.remove('scrolled');
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+  </script>
+</body>
+</html>

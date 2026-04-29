@@ -1,0 +1,12 @@
+{
+  "name": "rr-recruitright",
+  "version": "1.0.0",
+  "description": "RR RecruitRight — AI-powered job application tracker. Local-first, zero dependencies, rule-based insight engine.",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": ["job-tracker", "internship", "students", "vercel", "static-site"],
+  "license": "MIT"
+}
